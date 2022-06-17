@@ -88,7 +88,7 @@ function solution(str1, str2) {
       return 1;
     }
 
-    return Math.intersection.length / union.length;
+    return intersection.length / union.length;
   }
 
   const x다중집합 = str1
