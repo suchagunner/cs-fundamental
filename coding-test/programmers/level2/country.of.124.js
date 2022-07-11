@@ -10,7 +10,7 @@ function solution(n) {
 
   while (number > 0) {
     const remains = number % 3;
-    answer += REMAINS[remains];
+    answer = REMAINS[remains] + answer;
 
     if (remains === 0) {
       number = Math.floor((number - 1) / 3);
